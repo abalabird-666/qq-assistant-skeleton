@@ -24,7 +24,7 @@ CASES = [
     ("单文件txt", [{"type": "file", "data": {"file": "c.txt"}}], {"c.txt": "这是正文。"}, ""),
     ("双文件txt", [{"type": "file", "data": {"file": "a.txt"}},
                   {"type": "file", "data": {"file": "b.txt"}}],
-     {"a.txt": "第一份：线代第四章习题。", "b.txt": "第二份：英语作文模板。"}, ""),
+     {"a.txt": "第一份：示例私事A习题。", "b.txt": "第二份：英语作文模板。"}, ""),
     ("文件+图片", [{"type": "file", "data": {"file": "d.txt"}},
                   {"type": "image", "data": {"file": "img.png"}}],
      {"d.txt": "第三份：马原复习提纲。"}, "一只橘猫趴在键盘上"),
@@ -52,7 +52,7 @@ def read_trace() -> list[dict]:
 
 async def fetch_chain(mode: str):
     """R19-A 同款：mock Bot.call 走 get_private_file_url，看 fetch_file span。"""
-    body = "SHADOW-BODY 线代第四章 向量空间"
+    body = "SHADOW-BODY 示例私事A 向量空间"
     src = B.TMP / "shadow_note.txt"
     src.write_text(body, encoding="utf-8")
     got = {}

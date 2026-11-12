@@ -128,7 +128,7 @@ async def main() -> int:
     # 3) 图片 + 文件（复用 R20：文件段在图片段之后）
     tmp3 = Path(tempfile.mkdtemp(prefix="shadowimg-f-"))
     note = tmp3 / "note.txt"
-    note.write_text("R20-REGRESS 线代第四章 向量空间 知识点", encoding="utf-8")
+    note.write_text("R20-REGRESS 示例私事A 向量空间 知识点", encoding="utf-8")
 
     async def fetch_note(self, d):
         return note

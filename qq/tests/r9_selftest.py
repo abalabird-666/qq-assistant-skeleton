@@ -18,7 +18,7 @@ import qq_watch as Q
 
 MASTER = 100000001
 CR = 100000002
-LEGACY = "session-d6003f0b-acf2-4231-ba0d-daba7ba38edd"
+LEGACY = "session-11111111-1111-1111-1111-111111111111"
 
 tmp = Path(tempfile.mkdtemp(prefix="r9-"))
 (tmp / "config.json").write_text(
