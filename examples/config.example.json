@@ -1,0 +1,32 @@
+{
+  "wsUrl": "ws://127.0.0.1:3001",
+  "selfUin": 100000000,
+  "masterUins": [
+    100000001
+  ],
+  "replyUins": [
+    100000002
+  ],
+  "token": "REPLACE_WITH_YOUR_TOKEN",
+  "sessionId": "",
+  "maxPerDay": 200,
+  "usecaseMode": "legacy",
+  "sessionPerUid": true,
+  "sendTimeoutSec": 15,
+  "verifyAsync": true,
+  "verifyAttempts": 3,
+  "mergeWindowSec": 1.5,
+  "queueNoticeSec": 60,
+  "sendDedupSec": 120,
+  "docFirstChars": 12000,
+  "filePayloadChars": 13000,
+  "imgDescChars": 300,
+  "docKeepDays": 60,
+  "docSendDedupSec": 120,
+  "summarizeChunkChars": 9000,
+  "llmTimeoutSec": 180,
+  "qqArchiveTimeoutSec": 60,
+  "qqArchiveAsCommand": true,
+  "flushGuard": true,
+  "serialEnabled": true
+}

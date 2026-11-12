@@ -1,0 +1,61 @@
+.gitignore
+
+# ---- 运行时数据（一律不进仓库）----
+*.log
+*.jsonl
+*.sqlite
+*.sqlite3
+*.db
+*.pid
+*.pyc
+
+# 状态/会话/缓存
+state.json
+qq_state.json
+*_state.json
+*_state.json.bak
+docs.json
+_last_doc.json
+*_list.json
+*video_ctx_cache.json
+qq-session*.json
+seen.md
+round-evidence.json
+
+# 真实配置
+config.json
+bili_credential.json
+account.json
+focus.json
+local-override.json
+
+# 私人素材
+files/
+out/
+img/
+stickers/
+_cand*/
+_selftest.docx
+*.docx
+*.pdf
+*.txt
+!requirements.txt
+
+# 环境
+.venv/
+venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# 客户端（绝不能进仓库）
+napcat*/
+onekey/
+*.reg
+*.exe
+*.dll
+
+# 临时
+temp/
+tmp/
+_shadow_round_tmp/

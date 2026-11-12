@@ -1,0 +1,15 @@
+{
+  "perDay": 5,
+  "peakValley": true,
+  "noon": true,
+  "night": true,
+  "autoComment": false,
+  "transcribe": false,
+  "dmMode": "both",
+  "dmOwnerUid": 200000002,
+  "keywords": [
+    "示例关键词"
+  ],
+  "modelProvider": "deepseek-account",
+  "modelName": "deepseek-flash"
+}
